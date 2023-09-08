@@ -1,4 +1,0 @@
-repository "local rumors project@uncelwuque@cloud.cn"
-  path "/"
-    br "/main"
-    co "/main"

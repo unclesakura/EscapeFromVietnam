@@ -1,0 +1,339 @@
+Using pre-set license
+Built from '2022.3/china_unity/release' branch; Version is '2022.3.7f1c1 (0493b5551c5b) revision 299957'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'zh' Physical Memory: 65250 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+F:\u3d\2022.3.7f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker8
+-projectPath
+F:/u3d/local rumors project/local rumors project
+-logFile
+Logs/AssetImportWorker8.log
+-srvPort
+59665
+Successfully changed project path to: F:/u3d/local rumors project/local rumors project
+F:/u3d/local rumors project/local rumors project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [61788] Host "[IP] 10.82.113.12 [Port] 0 [Flags] 2 [Guid] 3851586291 [EditorId] 3851586291 [Version] 1048832 [Id] WindowsEditor(7,UNCLEWQYUA-PCFF) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [61788] Host "[IP] 10.82.113.12 [Port] 0 [Flags] 2 [Guid] 3851586291 [EditorId] 3851586291 [Version] 1048832 [Id] WindowsEditor(7,UNCLEWQYUA-PCFF) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 30.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.7f1c1 (0493b5551c5b)
+[Subsystems] Discovering subsystems at path F:/u3d/2022.3.7f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/u3d/local rumors project/local rumors project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2503)
+    Vendor:   NVIDIA
+    VRAM:     12129 MB
+    Driver:   31.0.15.2824
+Initialize mono
+Mono path[0] = 'F:/u3d/2022.3.7f1c1/Editor/Data/Managed'
+Mono path[1] = 'F:/u3d/2022.3.7f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'F:/u3d/2022.3.7f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56628
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: F:/u3d/2022.3.7f1c1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: F:/u3d/2022.3.7f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.013366 seconds.
+- Loaded All Assemblies, in  0.545 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.325 seconds
+Domain Reload Profiling: 861ms
+	BeginReloadAssembly (172ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (97ms)
+	LoadAllAssembliesAndSetupDomain (202ms)
+		LoadAssemblies (164ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (199ms)
+			TypeCache.Refresh (197ms)
+				TypeCache.ScanAssembly (178ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (326ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (253ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (159ms)
+			ProcessInitializeOnLoadMethodAttributes (73ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\u3d\local rumors project\local rumors project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\u3d\local rumors project\local rumors project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.050 seconds
+Refreshing native plugins compatible for Editor in 13.71 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in .\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in .\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in .\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in .\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in .\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x00032] in .\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:48 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.601 seconds
+Domain Reload Profiling: 2634ms
+	BeginReloadAssembly (242ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (77ms)
+	LoadAllAssembliesAndSetupDomain (647ms)
+		LoadAssemblies (503ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (277ms)
+			TypeCache.Refresh (243ms)
+				TypeCache.ScanAssembly (218ms)
+			ScanForSourceGeneratedMonoScriptInfo (21ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (1602ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1370ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (87ms)
+			ProcessInitializeOnLoadAttributes (1217ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (21ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.37 seconds
+Refreshing native plugins compatible for Editor in 22.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3813 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (56.5 KB). Loaded Objects now: 4278.
+Memory consumption went from 134.3 MB to 134.2 MB.
+Total: 25.673200 ms (FindLiveObjects: 0.995500 ms CreateObjectMapping: 1.058000 ms MarkObjects: 23.400100 ms  DeleteObjects: 0.217800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 692803.857604 seconds.
+  path: Assets/LocalRumorsProject/Art/portrait/fenghai/dansei_03_e.png
+  artifactKey: Guid(17788ff0ddf8317458f3c7b9caa676c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LocalRumorsProject/Art/portrait/fenghai/dansei_03_e.png using Guid(17788ff0ddf8317458f3c7b9caa676c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '006a689837c92a4d1720aeaa016170ab') in 0.173565 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 31.012900 seconds.
+  path: Assets/LocalRumorsProject/Art/portrait/jingli/dansei_16_b.png
+  artifactKey: Guid(f5b9b9fa99b2476429ac982f6952b2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LocalRumorsProject/Art/portrait/jingli/dansei_16_b.png using Guid(f5b9b9fa99b2476429ac982f6952b2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b464b67b01322296bf3ccc2afc1652c') in 0.176901 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/LocalRumorsProject/Art/portrait/jingli/dansei_16_h.png
+  artifactKey: Guid(13bc355e190b684459981f39a1471fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LocalRumorsProject/Art/portrait/jingli/dansei_16_h.png using Guid(13bc355e190b684459981f39a1471fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17aa7d20bf23c56a17f061474bfe122a') in 0.027745 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 5.706394 seconds.
+  path: Assets/LocalRumorsProject/Art/portrait/jingli/dansei_16_b.png
+  artifactKey: Guid(f5b9b9fa99b2476429ac982f6952b2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LocalRumorsProject/Art/portrait/jingli/dansei_16_b.png using Guid(f5b9b9fa99b2476429ac982f6952b2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d3b4365e33e1c56c10de6df84d96b7a') in 0.026436 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/LocalRumorsProject/Art/portrait/jingli/dansei_16_d.png
+  artifactKey: Guid(db387b13980cf204f87f77033cc7d0aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LocalRumorsProject/Art/portrait/jingli/dansei_16_d.png using Guid(db387b13980cf204f87f77033cc7d0aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '266a487df7c32cd31c618c0cabda5068') in 0.034408 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 35.241211 seconds.
+  path: Assets/LocalRumorsProject/Art/portrait/dazhi/dansei_01_b.png
+  artifactKey: Guid(7284b3cdc391beb4789a8f8936a3cd16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LocalRumorsProject/Art/portrait/dazhi/dansei_01_b.png using Guid(7284b3cdc391beb4789a8f8936a3cd16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '774742209758f2722d915dc382975afe') in 0.015652 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007113 seconds.
+  path: Assets/LocalRumorsProject/Art/portrait/dazhi/dansei_01_e.png
+  artifactKey: Guid(4b4db3d9b53cfe648805b1a3673b4642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LocalRumorsProject/Art/portrait/dazhi/dansei_01_e.png using Guid(4b4db3d9b53cfe648805b1a3673b4642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '781c982543d140a18a0528247dbd6979') in 0.012063 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.008647 seconds.
+  path: Assets/LocalRumorsProject/Art/portrait/dazhi/dansei_01_h.png
+  artifactKey: Guid(a38389a84a91bf04ebc25b760097a6df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LocalRumorsProject/Art/portrait/dazhi/dansei_01_h.png using Guid(a38389a84a91bf04ebc25b760097a6df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a6e0ccc30e43d512af7a33caabafb28') in 0.013947 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 6.615638 seconds.
+  path: Assets/LocalRumorsProject/Art/portrait/dazhi/dansei_01_b.png
+  artifactKey: Guid(7284b3cdc391beb4789a8f8936a3cd16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LocalRumorsProject/Art/portrait/dazhi/dansei_01_b.png using Guid(7284b3cdc391beb4789a8f8936a3cd16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f58b12bbc114783693c64614aaf00f25') in 0.028074 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/LocalRumorsProject/Art/portrait/dazhi/dansei_01_h.png
+  artifactKey: Guid(a38389a84a91bf04ebc25b760097a6df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LocalRumorsProject/Art/portrait/dazhi/dansei_01_h.png using Guid(a38389a84a91bf04ebc25b760097a6df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fa19b05fdc7a482f573cb13b8c6adec') in 0.023636 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 27.913691 seconds.
+  path: Assets/LocalRumorsProject/Art/portrait/meizi/josei_04_e.png
+  artifactKey: Guid(6cf48d0d4567f584ab70a2f46a9bc193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LocalRumorsProject/Art/portrait/meizi/josei_04_e.png using Guid(6cf48d0d4567f584ab70a2f46a9bc193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5f02c4cf76f95eae4d4b03645cf5e8f') in 0.012323 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 6.798511 seconds.
+  path: Assets/LocalRumorsProject/Art/portrait/meizi/josei_04_b.png
+  artifactKey: Guid(c4d3ac4973147984186438ada38b0125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LocalRumorsProject/Art/portrait/meizi/josei_04_b.png using Guid(c4d3ac4973147984186438ada38b0125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a39285431e989ab8e7c9b83464b8457') in 0.051032 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/LocalRumorsProject/Art/portrait/meizi/josei_04_g.png
+  artifactKey: Guid(6a4ab8a132266a946bf37b5633549db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LocalRumorsProject/Art/portrait/meizi/josei_04_g.png using Guid(6a4ab8a132266a946bf37b5633549db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af4537404af58470cd40b75e434e497a') in 0.021696 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 24.035472 seconds.
+  path: Assets/LocalRumorsProject/Art/portrait/long/dansei_09_b.png
+  artifactKey: Guid(419fca5695ee2854c98496d6125015fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LocalRumorsProject/Art/portrait/long/dansei_09_b.png using Guid(419fca5695ee2854c98496d6125015fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9a29d97153cbb88ff4f71846aafe202') in 0.014278 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.008438 seconds.
+  path: Assets/LocalRumorsProject/Art/portrait/long/dansei_09_e.png
+  artifactKey: Guid(fa24f129b1185ff448c729fd4e9b5202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LocalRumorsProject/Art/portrait/long/dansei_09_e.png using Guid(fa24f129b1185ff448c729fd4e9b5202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '506c2f1ffee243162067bca3386b75a6') in 0.015380 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 7.123754 seconds.
+  path: Assets/LocalRumorsProject/Art/portrait/long/dansei_09_b.png
+  artifactKey: Guid(419fca5695ee2854c98496d6125015fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LocalRumorsProject/Art/portrait/long/dansei_09_b.png using Guid(419fca5695ee2854c98496d6125015fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a499dad26defccd2a3d1d75647db6256') in 0.034560 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/LocalRumorsProject/Art/portrait/long/dansei_09_g.png
+  artifactKey: Guid(a75577bf495101841a599c5c1e79d9af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LocalRumorsProject/Art/portrait/long/dansei_09_g.png using Guid(a75577bf495101841a599c5c1e79d9af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e09d7e14fa8de07ee4aec81ae2f5cae5') in 0.027528 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 由于线程退出或应用程序请求，已中止 I/O 操作。
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
